@@ -13,9 +13,17 @@ The repo leverages the following open datasets:
 - 2018 county population estimates from the US Census (https://www.ers.usda.gov/webdocs/DataFiles/48747/PopulationEstimates.csv?v=3011.3)
 - COVID-19 data from The New York Times - updated daily (https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
-The data sources above were merged together to form the exibit below. In addition to the tri-state area, exhibits have been created for northeast and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
+The data sources above were merged together to form the exibits below. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
 
+
+# Tri-state
 ![Alt Text](maps/tristate/covid.gif)
+
+# Northeast
+![Alt Text](maps/northeast/covid.gif)
+
+# Continental US
+![Alt Text](maps/us/covid.gif)
 
 The goal of this repo is to provide more informative exhibits related to COVID-19. Please post issues and submit merge requests if you would like to discuss more. I am not sure how much time I will have to devote to this, but at the very least I will try to update the exhibits with each new day of data.
 
