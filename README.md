@@ -6,14 +6,14 @@ I am an individual curious about the world and what the future holds. I've had s
 
 All of these metrics released are bad news and all of them are tough to swallow, but there is no true context to these figures. 1,000 cases in a town of 100,000 means 1% of the population was confirmed positive. 80,000 cases in a city of 8,000,000+ people - thats also 1%. See how these figures can be misleading?
 
-We need more context to the figures in the media and thats what this repo attempts to accomplish. It is very much a work in progress with some ugly code. 
+We need more context to the figures in the media. Thats what this repo attempts to accomplish. This repo is very much a work in progress with some ugly code. 
 
-The repo leverages the following:
-- Geography files (https://www2.census.gov/geo/tiger/TIGER2019/) 
+The repo leverages the following open datasets:
+- Geography files: state and county (https://www2.census.gov/geo/tiger/TIGER2019/) 
 - 2018 county population estimates from the US Census (https://www.ers.usda.gov/webdocs/DataFiles/48747/PopulationEstimates.csv?v=3011.3)
-- COVID-19 data from The New York Times (https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
+- COVID-19 data from The New York Times - updated daily (https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
-The data sources above were merged together to form the exibit below. Exhibits have currently been created for the tristate, northeast, and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
+The data sources above were merged together to form the exibit below. Exhibits have currently been created for the tri-state, northeast, and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
 
 ![Alt Text](maps/tristate/covid.gif)
 
