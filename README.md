@@ -13,12 +13,14 @@ The repo leverages the following:
 - 2018 county population estimates from the US Census (https://www.ers.usda.gov/webdocs/DataFiles/48747/PopulationEstimates.csv?v=3011.3)
 - COVID-19 data from The New York Times (https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
-These data sources were merged together to form the exibit below. Exhibits are currently created for tristate, northeast, and the continental us. The notebook could be easily alters to reflect a geography of your choosing.
+The data sources above were merged together to form the exibit below. Exhibits have currently been created for the tristate, northeast, and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
 
 ![Alt Text](maps/tristate/covid.gif)
 
-The goal is to build off from this and provide more informative exhibits related to COVID-19 in the future. Post issues and submit merge requests if you would like to discuss more. 
+The goal of this repo is to provide more informative exhibits related to COVID-19. Please post issues and submit merge requests if you would like to discuss more. I am not sure how much time I will have to devote to this, but at the very least I will try to update the exhibits with each new day of data.
 
 Huge shout out to The New York Times for currating this data and making it available to the public. 
+
+Note, 300 cases per 100,000 is a random threshold. This was set to give context to other counties. i.e. wow...now the density of cases per 100,000 residents is approximately equivalent to Westchester, NY on March 24th.
 
 GIF was heavily inspiration was from Benjamin Cooley post in 2018 (https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
