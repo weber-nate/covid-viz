@@ -1,6 +1,6 @@
 # Exploritory COVID-19 Repo
 
-First and foremost - I am not a doctor, medical researcher, or anything even close to these people.
+First and foremost - I am not a doctor, medical researcher, or anything even close
 
 I am an individual curious about the world and what the future holds. I've had some issues with the data reported by news outlets. The public hears 1000+ deaths in NYC, 35 new cases of COVID-19 in my county .... what does this all mean - are they the same severity????? 
 
@@ -13,7 +13,7 @@ The repo leverages the following open datasets:
 - 2018 county population estimates from the US Census (https://www.ers.usda.gov/webdocs/DataFiles/48747/PopulationEstimates.csv?v=3011.3)
 - COVID-19 data from The New York Times - updated daily (https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)
 
-The data sources above were merged together to form the exibit below. Exhibits have currently been created for the tri-state, northeast, and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
+The data sources above were merged together to form the exibit below. In addition to the tri-state area, exhibits have been created for northeast and continental us. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
 
 ![Alt Text](maps/tristate/covid.gif)
 
