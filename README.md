@@ -26,4 +26,4 @@ Notes:
 - NYC data is not release at the county level by The New York Times. So all 5 boroughs were merge together to form their own geography of 8 million plus people.
 - 300 cases per 100,000 is a random threshold. This was set to give context to other counties. i.e. wow...now the density of cases per 100,000 residents is approximately equivalent to Westchester, NY on March 24th.
 
-GIF was heavily inspiration was from Benjamin Cooley post in 2018 (https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
+GIF was heavily inspired by Benjamin Cooley post from 2018 (https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
