@@ -15,14 +15,27 @@ The repo leverages the following open datasets:
 
 The data sources above were merged together to form the exibits below. The jupyter notebook could be easily altered to reflect a different geography of your choosing.
 
-# Tri-state
+# Cases
+
+## Tri-state
 ![Alt Text](maps/cases/tristate/covid.gif)
 
-# Northeast
+## Northeast
 ![Alt Text](maps/cases/northeast/covid.gif)
 
-# Continental US
+## Continental US
 ![Alt Text](maps/cases/us/covid.gif)
+
+# Deaths
+
+## Tri-state
+![Alt Text](maps/deaths/tristate/covid.gif)
+
+## Northeast
+![Alt Text](maps/deaths/northeast/covid.gif)
+
+## Continental US
+![Alt Text](maps/deaths/us/covid.gif)
 
 The goal of this repo is to provide more informative exhibits related to COVID-19. Please post issues and submit merge requests if you would like to discuss more. I am not sure how much time I will have to devote to this, but at the very least I will try to update the exhibits with each new day of data.
 
